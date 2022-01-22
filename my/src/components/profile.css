@@ -1,0 +1,96 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-content: center;
+    overflow-y: scroll;
+    transform: translate(-360px,-200px);
+    gap: 1.4rem;
+ 
+  
+}
+.postss{
+    display: grid;
+    width: 900px;
+    grid-template-columns: 250px 250px 250px;
+    gap: 1.5rem;
+   
+
+}
+
+.ft:hover{
+    background-color:rgba(0,0,0,0.1) ;
+    cursor: grab;
+    transform: scale(1.1);
+    box-shadow: 0px 12px 8px 0px rgba(0,0,0,0.1) ,-0px -2px 8px 0px rgba(0,0,0,0.1);
+
+  
+
+}
+
+.image{
+    width: 900px;
+    height: 400px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+    transform: translateX(-100px);
+
+ 
+}
+.round{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+   
+}
+.profileimage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+   
+}
+.er{
+    transform: translateX(100px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+   
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.flow{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.follow{
+   height: 40px;
+   transform: translateY(10px);
+}
+.p{
+    display: none;
+}
+.pci{
+    background-color: #4d8cf2;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    
+    
+}
+.post3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+   width: 90vw;
+transform: translate(-620px,-200px);
+    
+}
