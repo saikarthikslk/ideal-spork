@@ -25,15 +25,16 @@ catch(e){
 }
 }
 
-app.get('/ft',(req,res)=>{
-
-
-    res.send('hi')
-})
+app.use(express.static('my/build'))
+ 
+  app.get("*" ,(req,res)=>{
+      console.log('dd')
+      res.sendFile(path.resolve(__dirname,'my','build','index.html'))
+  })
 
 app.listen(16000, async ()=>{
     await db()
- 
+  
 
   
     
