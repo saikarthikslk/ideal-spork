@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "nodemon",
-    "dev": "nodemon ./index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix my && npm run build --prefix my"
   },
   "keywords": [],
   "author": "",
@@ -28,5 +28,8 @@
   },
   "devDependencies": {
     "webpack": "^5.65.0"
+  },
+  "engines": {
+    "node": "10.16.0"
   }
 }
